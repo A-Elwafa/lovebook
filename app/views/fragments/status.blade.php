@@ -1,4 +1,4 @@
-<div class="_statusContainer" id="status{{ $status->id }}">
+<div class="_statusContainer col-lg-6 col-sm-12" id="status{{ $status->id }}">
 	<div class="_statusHeader">
 		<div class="_statusThWrap">
 			<img class="miniThumb" src="{{ asset($user->profile->profile_pic_mini_thumb) }}">

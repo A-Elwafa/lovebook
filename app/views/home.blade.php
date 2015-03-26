@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="row">
-    <div id="newStatusDiv" class="statusContainer col-sm-12 col-md-12 col-lg-6">
+    <div id="newStatusDiv" class="newStatusContainer col-sm-12 col-md-12 col-lg-6">
         <form id="newStatusForm" method="POST" accept-charset="UTF-8" action="http://www.lovebook.com/ajax" role="form">
             <div class="">
                 <textarea name="newStatusText" id="statusArea" placeholder="Update your status..."></textarea>
@@ -15,7 +15,7 @@
 <div class="row posts">
     
 @foreach($statuses as $status)
-    <div class="_statusContainer" id="status{{ $status->id }}">
+    <div class="_statusContainer col-lg-6 col-sm-12" id="status{{ $status->id }}">
        <div class="_statusHeader">
           <div class="_statusThWrap">
              <img class="miniThumb" src="{{ asset($status->user->profile->profile_pic_mini_thumb) }}">
