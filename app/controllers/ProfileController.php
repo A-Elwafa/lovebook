@@ -321,6 +321,8 @@ class ProfileController extends BaseController
                         $query->where('first_name', 'like', '%' . $names[1] . '%');
                     })->where(function($query) use($names){
                     $query->where('last_name', 'like', '%' . $names[0] . '%');
+                    })->where(function($query){
+                        $query->where('activated', '=', '1');
                     })->paginate(15);
         }
         return NULL;
