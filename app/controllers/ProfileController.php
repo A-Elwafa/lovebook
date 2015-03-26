@@ -308,12 +308,14 @@ class ProfileController extends BaseController
             if($names[0] == ''){
                 return NULL;
             }
-            return User::where('first_name', 'like', '%' . $names[0] . '%')
-                ->orWhere('last_name', 'like', '%'. $names[0] . '%')
+            return User::where('activated', '=', '1')->where('first_name', 'like', '%' . $names[0] . '%')
+                ->orWhere('last_name', 'like', '%'. $names[0] . '%')->where('activated', '=', '1')
                 ->paginate(15);
         }
         elseif(count($names) == 2){
-            return User::where(function($query) use($names){
+            return User::where(function($query){
+                        $query->where('activated', '=', '1');
+                    })->where(function($query) use($names){
                         $query->where('first_name', 'like', '%' . $names[0] . '%');
                     })->where(function($query) use($names){
                         $query->where('last_name', 'like', '%' . $names[1] . '%');
@@ -321,8 +323,6 @@ class ProfileController extends BaseController
                         $query->where('first_name', 'like', '%' . $names[1] . '%');
                     })->where(function($query) use($names){
                     $query->where('last_name', 'like', '%' . $names[0] . '%');
-                    })->where(function($query){
-                        $query->where('activated', '=', '1');
                     })->paginate(15);
         }
         return NULL;

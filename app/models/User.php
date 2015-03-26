@@ -29,9 +29,9 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
         // get full name
         public function getFullNameAttribute(){
             if($this->middle_name == (NULL || ''))
-                return $this->first_name . ' ' . $this->middle_name . ' ' . $this->last_name;
-            else
                 return $this->first_name .' '. $this->last_name;
+            else
+                return $this->first_name . ' ' . $this->middle_name . ' ' . $this->last_name;
         }
         
         
