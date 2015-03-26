@@ -1,0 +1,342 @@
+.navbar-default {
+	background-color: #b81f23;
+	border-color: #df5558;
+}
+.navbar{
+    margin-bottom: 7px;
+}
+.navbar-default .navbar-brand {
+	color: #d3dcde;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #ffffff;
+}
+.navbar-default .navbar-text {
+	color: #d3dcde;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #d3dcde;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #df5558;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #ffffff;
+	background-color: #df5558;
+}
+.navbar-default .navbar-toggle {
+	border-color: #df5558;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #df5558;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #d3dcde;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #d3dcde;
+}
+.navbar-default .navbar-link {
+	color: #d3dcde;
+}
+.navbar-default .navbar-link:hover {
+	color: #ffffff;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #d3dcde;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #ffffff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #ffffff;
+		background-color: #df5558;
+	}
+}
+
+footer {
+        margin-top: 20px;
+	border-top: 1px solid #D3D3D3;
+        padding-top: 3px;
+	color: #B9B9B9;
+}
+
+.carousel{
+	height: 450px;
+	max-height: 450px !important;
+}
+
+.customJumbotron .jumbotron{
+    background-color: white;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.infoProfile{
+    box-shadow: 0px 1px 3px 1px lightgrey;
+    
+    background-color: white;
+    padding-left: 20px;
+}
+
+.infoBox{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profileLabel{
+    color: grey;
+    font-size: 13px;
+}
+
+.editInfo{
+    float: right;
+    padding-top: 10px;
+    padding-right: 5px;
+    display: inline;
+}
+
+div.infoBox .form-group{
+    margin-bottom: 7px;
+}
+
+.searchBox{
+    box-shadow: 0px 0px 3px 1px lightgrey;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: white;
+}
+.friendBox{
+    box-shadow: 2px 1px 3px 1px lightgrey;
+    border-left: 6px solid #b81f23;
+    margin: 5px 15px;
+    padding-top: 7px;
+    height: 75px;
+}
+
+.friendAnchor, a.friendAnchor:hover, a.friendAnchor:visited{
+    color: #940000;
+    font-weight: bold;
+}
+
+.miniThWrap{
+    display: inline;
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+.miniThumb{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.profilePicWrap{
+    width: 260px; 
+    height: 300px;
+    
+    text-align: center;
+    line-height: 300px;
+}
+.profileThumb{
+    max-height: 100%;
+    max-width: 100%;    
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+
+
+.statusContainer{
+    float: left;
+    box-shadow: 0px 0px 1px 1px lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px 5px 15px 0px;
+    background-color: white;
+}
+
+.timeShare{
+    font-size: 12px;
+    color: grey;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+}
+
+input.myButton{
+    margin-top: 5px;
+    color: #f7f0f0;
+    background-color: #b81f23;
+    font-weight: bold;
+    width: 70px;
+}
+input.myButton:hover{
+    color: white;
+}
+
+.profileBody{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profileBottom{
+    box-shadow: 0px 0px 1px 1px lightgrey;
+    background-color: #fafafa;
+}
+
+.statusLikes{
+    color: #740202;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+
+.likeButton:hover{
+    text-decoration: underline;
+}
+.commentButton{
+    margin-left: 9px;
+}
+
+.commentForm{
+    display: inline;
+    max-width: 100%;
+}
+
+div.commentThWrap{
+    
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 7px;
+}
+
+._statusContainer{
+    box-shadow: 0px 0px 1px 1px lightgrey;
+    margin: 5px 5px 10px 0px;
+    width: 570px;
+    background-color: white;
+}
+._statusHeader{
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    overflow: auto;
+    padding-left: 15px;
+}
+._statusBody{
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    overflow: auto;
+    padding-left: 15px;
+    margin: 0px;
+}
+._statusBottom{
+    background-color: #fafafa;
+    display:inline-block;
+    width: 100%;
+}
+
+._likeSection{
+    border-bottom: 1px solid lightgrey;
+    padding: 2px;
+    padding-left: 15px;
+}
+.commentSeciton{
+    
+}
+
+._statusThWrap{
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin-right: 7px;
+}
+
+a._statusAnchors{
+    margin-right: 7px;
+    font-size: 12px;
+    color: #740202;
+}
+
+a._statusAnchors:active, a._likeAnchor:focus{
+    text-decoration: none;
+}
+
+
+._newComment{
+    padding: 5px;
+    padding-left: 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+._commentThWrap{
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 5px;
+    display: inline;
+}
+div._textDiv{
+    margin-top: 5px;
+    float: left;
+    display: inline;
+    width: 90%;
+}
+._commentTxtArea{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.commentName{
+    font-size: 13px;
+}
+
+._commentBox{
+    border-top: 1px solid lightgrey;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+._commentContent{
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 13px;
+    line-height: 1.2;
+}
+._commentTime{
+    font-size: 11px;
+    color: grey;
+}
+
+div.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.likeButton{
+    max-width: auto;
+    max-height: 15px;
+}
+.likeCount{
+    margin-left: 3px;
+}
