@@ -103,7 +103,7 @@
   </div>
   <div class="comments" id="comments{{ $status->id }}">
       @if($status->comments != NULL)
-      @foreach($status->comments()->orderBy('created_at', 'desc')->get() as $comment)
+      @foreach($status->comments()->orderBy('created_at', 'asc')->get() as $comment)
       {{ View::make('fragments.comment', array('comment' => $comment, 'user' => User::find($comment->user_id))) }}
       @endforeach
       @endif
