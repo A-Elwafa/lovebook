@@ -28,7 +28,7 @@ return array(
 	|
 	*/
 
-	'host' => 'smtp-mail.outlook.com',
+	'host' => 'yourEmailHost',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'lovebooktest@outlook.com', 'name' => 'Lovebook Team'),
+	'from' => array('address' => 'your@email.com', 'name' => 'Lovebook'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return array(
 	|
 	*/
 
-	'username' => 'lovebooktest@outlook.com',
+	'username' => 'yourUsername', // just write your full email if you dont have username
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return array(
 	|
 	*/
 
-	'password' => 'mailClient41',
+	'password' => '',
 
 	/*
 	|--------------------------------------------------------------------------
