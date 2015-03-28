@@ -1,10 +1,10 @@
 /bootstrap/compiled.php
+/app/config/database.php
+/app/config/mail.php
 <<<<<<< HEAD
 /vendor
 composer.phar
 composer.lock
-/app/config/database.php
-/app/config/mail.php
 .env.*.php
 .env.php
 .DS_Store
