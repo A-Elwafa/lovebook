@@ -1,6 +1,7 @@
 /bootstrap/compiled.php
 /app/config/database.php
 /app/config/mail.php
+/public/img/uploads
 <<<<<<< HEAD
 /vendor
 composer.phar
