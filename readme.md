@@ -6,15 +6,15 @@ Front end wise I'm using Bootstrap 3 framework (for responsive design and some n
 
 When deploying online some JavaScript scripts and links in some views should be corrected because they are hard coded which could be a problem.
 
-FEATURES:
-*registration system with email activation
-*basic authentication system with remember me function
-*adding and deleting friends (there are friend requests)
-*posting statuses which can be commented and liked
-*uploading profile picture
-*basic search
+## Features
+* registration system with email activation
+* basic authentication system with remember me function
+* adding and deleting friends (there are friend requests)
+* posting statuses which can be commented and liked
+* uploading profile picture
+* basic search
 
-USAGE:
+## Setup
 1. Clone repository to your machine
 2. Run in CMD "composer install"
 3. Configure database and mail settings in config folder
