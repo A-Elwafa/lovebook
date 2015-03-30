@@ -15,6 +15,13 @@ When deploying online some JavaScript scripts and links in some views should be 
 * uploading profile picture
 * basic search
 
+## Planned features
+* AJAX driven feed
+* photo albums
+* link generator with thumbnail (when you paste URL in new status form)
+* real time notifications
+* real time chat
+
 ## Setup
 1. Clone repository to your machine
 2. Run in CMD "composer install"
